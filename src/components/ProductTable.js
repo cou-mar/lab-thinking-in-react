@@ -1,4 +1,5 @@
 import React from 'react';
+import ProductRow from './ProductRow';
 
 const ProductTable = (props) => {
     return (
@@ -10,6 +11,13 @@ const ProductTable = (props) => {
                         <th>Price</th>
                     </tr>
                 </thead>
+
+                {props.productsArr.map(eProduct => {
+                    return(
+                        <ProductRow eProduct={eProduct} />
+                    )
+                })}
+
             </table>
         </div>
     );

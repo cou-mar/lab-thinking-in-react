@@ -14,7 +14,7 @@ const SearchBar = (props) => {
             <label>
                 <h4>Search</h4>
             </label>
-            <input type="text" value={search} onChange={handleSearch} />
+            <input type="text" value={search} onChange={handleSearch} className="searchBar" />
             <br />
             <input type="checkbox" />
             <p>Only show products in stock</p>

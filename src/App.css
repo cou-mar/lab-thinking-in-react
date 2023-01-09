@@ -36,3 +36,35 @@
     transform: rotate(360deg);
   }
 } */
+
+.container{
+  text-align: center;
+}
+
+.searchBar{
+  width: 600px;
+}
+
+table{
+  display: flex;
+  flex-direction: column;
+  border-collapse: separate;
+  border-spacing: 0 15px;
+  /* justify-content: center; */
+  align-items: center;
+}
+
+th{
+  background-color: lightgrey;
+}
+
+th, td{
+  text-align: center;
+  border-bottom: 1px solid black;
+  width: 300px;
+}
+
+table, th, td{
+  border-collapse: collapse;
+  padding: 10px;
+}
